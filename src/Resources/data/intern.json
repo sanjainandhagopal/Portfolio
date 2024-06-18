@@ -1,0 +1,30 @@
+[
+    {
+        "org": "Abluva",
+        "domain": "Cloud Security",
+        "duration": "6 Months",
+        "width": 250,
+        "height": 300
+    },
+    {
+        "org": "YBI foundation",
+        "domain": "Machine Learning",
+        "duration": "1 Month",
+        "width": 350,
+        "height": 200
+    },
+    {
+        "org": "Verzeo",
+        "domain": "Cyber Security",
+        "duration": "2 Months",
+        "width": 350,
+        "height": 200
+    },
+    {
+        "org": "Titan",
+        "domain": "Networking and Server Management",
+        "duration": "1 Week",
+        "width": 250,
+        "height": 350
+    }
+]

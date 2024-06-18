@@ -1,0 +1,62 @@
+.project {
+    width: calc(50% - 40px);
+    border-bottom: 1px solid gray;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #9bbde0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover {
+    box-shadow: 0 0 20px white;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.category-title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+.category {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0px 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.titleData {
+    width: 110px;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+label {
+    font-weight: bold;
+}
+
+.scrShotData {
+    text-align: center;
+}
+
+.scrShot {
+    width: 350px;
+    height: 200px;
+}
+
+.project > table > tbody > tr > td > a {
+    font-size: 25px;
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "title": "CCNAv7",
+        "particular": "Networking",
+        "provider": "Cisco"
+    },
+
+    {
+        "title": "Basics of web-Internet fundamentals",
+        "particular": "Networking",
+        "provider": "Codedamn"
+    },
+
+    {
+        "title": "NSE1",
+        "particular": "Firewall",
+        "provider": "Fortinet"
+    },
+
+    {
+        "title": "NSE2",
+        "particular": "Firewall",
+        "provider": "Fortinet"
+    },
+
+    {
+        "title": "NSE3",
+        "particular": "Firewall",
+        "provider": "Fortinet"
+    },
+
+    {
+        "title": "Cybersecurity Attacks (Red Team Activity)",
+        "particular": "Cyber Security",
+        "provider": "Springboard"
+    },
+
+    {
+        "title": "Amazon S3",
+        "particular": "Cloud",
+        "provider": "Udemy"
+    },
+
+    {
+        "title": "BlockChain Foundation",
+        "particular": "Block Chain",
+        "provider": "Udemy"
+    },
+
+    {
+        "title": "Python for Data Science",
+        "particular": "AI & ML",
+        "provider": "Springboard"
+    },
+
+    {
+        "title": "Data Visualization using Python",
+        "particular": "AI & ML",
+        "provider": "Springboard"
+    },
+
+    {
+        "title": "Explore Machine Learning using Python",
+        "particular": "AI & ML",
+        "provider": "Springboard"
+    },
+
+    {
+        "title": "Object Detection and Recognition Using Deep Learning in OpenCV",
+        "particular": "AI & ML",
+        "provider": "Springboard"
+    },
+
+    {
+        "title": "Introduction to Deep Learning",
+        "particular": "AI & ML",
+        "provider": "Springboard"
+    }
+]

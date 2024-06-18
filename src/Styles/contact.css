@@ -1,0 +1,25 @@
+.contactPage {
+    margin-top: 10%;
+}
+
+.contactPage > article {
+    width: calc(50%);
+    border-bottom: 1px solid gray;
+    margin: auto;
+    padding: 20px;
+    background-color: #9bbde0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 20px white;
+}
+
+td {
+    padding: 10px;
+}

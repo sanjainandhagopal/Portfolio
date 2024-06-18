@@ -1,0 +1,36 @@
+.internship {
+    display: flex;
+    flex-wrap: wrap;  /* Allow items to wrap to the next row */
+    gap: 15px;
+    margin: 0px 10px;
+    justify-content: center;
+}
+
+.internPage {
+    flex: 1 1 calc(50% - 40px);  /* Allow items to grow and shrink with a base width */
+    max-width: calc(50% - 40px); /* Ensure items do not exceed 50% width minus the gap */
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #9bbde0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.internPage:hover {
+    box-shadow: 0 0 20px white;
+}
+
+.intern-img-field {
+    text-align: center;
+}
+
+.internlabel {
+    width: 50%;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
