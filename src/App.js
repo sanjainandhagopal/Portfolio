@@ -14,12 +14,12 @@ function App() {
     <div className="hero">
       <Nav/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/profile' element={<Profile/>}/>
-        <Route path='/works' element={<Works/>}/>
-        <Route path='/intern' element={<Internships/>}/>
-        <Route path='/certificate' element={<Certifications/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/Portfolio' element={<Home/>}/>
+        <Route path='/Portfolio/profile' element={<Profile/>}/>
+        <Route path='/Portfolio/works' element={<Works/>}/>
+        <Route path='/Portfolio/intern' element={<Internships/>}/>
+        <Route path='/Portfolio/certificate' element={<Certifications/>}/>
+        <Route path='/Portfolio/contact' element={<Contact/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </div>
