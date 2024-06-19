@@ -11,18 +11,30 @@ table {
     background-color: #9bbde0;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.picData > img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 0.2s;
 }
 
 .picData {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.picData > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.edu-data {
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .edu-data > td {
@@ -33,11 +45,76 @@ table {
     padding: 10px 0;
 }
 
-.skill-data > ul{
+.skill-data {
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.skill-data > ul {
     list-style-type: none;
+}
+
+.lang-data {
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .lang-data > li {
     list-style-type: none;
     padding-bottom: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    table {
+        width: calc(70% - 40px);
+    }
+
+    .picData > img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .edu-data > td {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        width: calc(90% - 40px);
+    }
+
+    .picData > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .edu-data > td {
+        padding-top: 20px;
+    }
+
+    .profile-bg {
+        width: 90%;
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .picData > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .edu-data > td {
+        padding-top: 10px;
+    }
 }

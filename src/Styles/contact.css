@@ -3,7 +3,7 @@
 }
 
 .contactPage > article {
-    width: calc(50%);
+    width: 50%;
     border-bottom: 1px solid gray;
     margin: auto;
     padding: 20px;
@@ -22,4 +22,40 @@ a:hover {
 
 td {
     padding: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .contactPage > article {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactPage {
+        margin-top: 5%;
+    }
+
+    .contactPage > article {
+        width: 90%;
+    }
+
+    td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contactPage {
+        margin-top: 5%;
+    }
+
+    .contactPage > article {
+        width: 100%;
+        padding: 15px;
+    }
+
+    td {
+        padding: 6px;
+    }
 }

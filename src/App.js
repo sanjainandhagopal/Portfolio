@@ -7,6 +7,7 @@ import Internships from './Components/Internships';
 import Certifications from './Components/Certifications';
 import { Route, Routes } from 'react-router-dom';
 import Contact from './Components/Contact';
+import NotFound from './Components/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/intern' element={<Internships/>}/>
         <Route path='/certificate' element={<Certifications/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
     </div>
   );

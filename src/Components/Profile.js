@@ -1,5 +1,5 @@
 import '../Styles/Profile.css';
-import profilePic from '../Resources/profilePic.jpg';
+import profilePic from '../Resources/prof3.png';
 import Education from './ProfileComponents/Education';
 import Skills from './ProfileComponents/Skills';
 import Language from './ProfileComponents/Language';

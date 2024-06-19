@@ -34,3 +34,53 @@
 span {
     font-weight: bold;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .internPage {
+        flex: 1 1 calc(70% - 40px); /* Allow more space for each item */
+        max-width: calc(70% - 40px); /* Ensure items do not exceed 70% width minus the gap */
+    }
+
+    .internlabel {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .internPage {
+        flex: 1 1 calc(100% - 40px); /* Allow full width for each item */
+        max-width: calc(100% - 40px); /* Ensure items do not exceed full width minus the gap */
+    }
+
+    .internlabel {
+        width: 70%;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    .intern-img-field {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .internPage {
+        flex: 1 1 100%; /* Allow full width for each item */
+        max-width: 100%; /* Ensure items do not exceed full width */
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .internlabel {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+
+    span {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+}

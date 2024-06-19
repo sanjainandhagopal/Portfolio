@@ -19,9 +19,9 @@ const Nav = () => {
       <ul className={menuOpen ? 'show' : ''}>
         <li style={{ '--i': 1 }}><Link to={'/'}>Home</Link></li>
         <li style={{ '--i': 2 }}><Link to={'/profile'}>Profile</Link></li>
-        <li style={{ '--i': 3 }}><Link to={'/works'}>Work</Link></li>
-        <li style={{ '--i': 4 }}><Link to={'/intern'}>Internship</Link></li>
-        <li style={{ '--i': 5 }}><Link to={'/certificate'}>Certification</Link></li>
+        <li style={{ '--i': 3 }}><Link to={'/works'}>Project Portfolio</Link></li>
+        <li style={{ '--i': 4 }}><Link to={'/intern'}>Internships</Link></li>
+        <li style={{ '--i': 5 }}><Link to={'/certificate'}>Certifications</Link></li>
         <div className='contact-btn'><Link to={'/contact'}>Contact</Link></div>
       </ul>
       

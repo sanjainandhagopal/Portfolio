@@ -60,3 +60,80 @@ label {
 .project > table > tbody > tr > td > a {
     font-size: 25px;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .project {
+        width: calc(70% - 40px);
+    }
+
+    .category-title {
+        font-size: 25px;
+    }
+
+    .scrShot {
+        width: 300px;
+        height: 170px;
+    }
+
+    .project > table > tbody > tr > td > a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: calc(90% - 40px);
+    }
+
+    .category {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .scrShot {
+        width: 250px;
+        height: 150px;
+    }
+
+    .project > table > tbody > tr > td > a {
+        font-size: 20px;
+    }
+
+    .category-title {
+        font-size: 22px;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .scrShot {
+        width: 200px;
+        height: 120px;
+    }
+
+    .project > table > tbody > tr > td > a {
+        font-size: 18px;
+    }
+
+    .category-title {
+        font-size: 20px;
+    }
+
+    .titleData {
+        width: auto;
+        text-align: left;
+        padding-right: 5px;
+    }
+
+    .scrShotData {
+        text-align: center;
+    }
+}
