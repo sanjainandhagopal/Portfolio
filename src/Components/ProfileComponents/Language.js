@@ -18,8 +18,8 @@ const Language = () => {
         </li>
         <li> <label><span>S</span>poken <span>L</span>anguages</label>
           <ul>
-            <li>Tamil</li>
             <li>English</li>
+            <li>Tamil</li>
             <li>Japanese - N5</li>
           </ul>
         </li>

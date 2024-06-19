@@ -12,7 +12,7 @@ const Home = () => {
         <h1>Sanjai Nandhagopal</h1>
         <h3>And I'm a <TypingEffect/></h3>
         <p>I'm a Fresher software developer with extensive knowledge of MERN stack, Networking 
-          <br/>and some research perspective of machine learning.</p>
+          and some research perspective of machine learning.</p>
         <div className='home-sci'>
           <a href='https://github.com/sanjainandhagopal' style={{ '--i': 6 }}><FaGithub /></a>
           <a href='https://www.linkedin.com/in/sanjai-nandhagopal-59836b206/' style={{ '--i': 7 }}><FaLinkedin /></a>
