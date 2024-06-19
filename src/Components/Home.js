@@ -18,7 +18,7 @@ const Home = () => {
           <a href='https://www.linkedin.com/in/sanjai-nandhagopal-59836b206/' style={{ '--i': 7 }}><FaLinkedin /></a>
           <a href= "mailto: sanjainandhagopal@gmail.com" style={{ '--i': 8 }}><IoIosMail /></a>
           
-          <Link to={'/contact'} style={{ '--i': 9 }}><FaWhatsapp /></Link>
+          <Link to={'/Portfolio/contact'} style={{ '--i': 9 }}><FaWhatsapp /></Link>
         </div>
       </div>
     </section>

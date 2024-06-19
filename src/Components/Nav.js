@@ -17,12 +17,12 @@ const Nav = () => {
         <div></div>
       </div>
       <ul className={menuOpen ? 'show' : ''}>
-        <li style={{ '--i': 1 }}><Link to={'/'}>Home</Link></li>
-        <li style={{ '--i': 2 }}><Link to={'/profile'}>Profile</Link></li>
-        <li style={{ '--i': 3 }}><Link to={'/works'}>Project Portfolio</Link></li>
-        <li style={{ '--i': 4 }}><Link to={'/intern'}>Internships</Link></li>
-        <li style={{ '--i': 5 }}><Link to={'/certificate'}>Certifications</Link></li>
-        <div className='contact-btn'><Link to={'/contact'}>Contact</Link></div>
+        <li style={{ '--i': 1 }}><Link to={'/Portfolio/'}>Home</Link></li>
+        <li style={{ '--i': 2 }}><Link to={'/Portfolio/profile'}>Profile</Link></li>
+        <li style={{ '--i': 3 }}><Link to={'/Portfolio/works'}>Project Portfolio</Link></li>
+        <li style={{ '--i': 4 }}><Link to={'/Portfolio/intern'}>Internships</Link></li>
+        <li style={{ '--i': 5 }}><Link to={'/Portfolio/certificate'}>Certifications</Link></li>
+        <div className='contact-btn'><Link to={'/Portfolio/contact'}>Contact</Link></div>
       </ul>
       
     </nav>
